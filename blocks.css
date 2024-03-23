@@ -1,0 +1,20 @@
+.box {
+    width: 200px;
+/*    border-width: 3px;
+    border-style:solid ;
+    border-color: black ;
+*/
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+span {
+    color: green;
+    border: 3px solid black;
+    padding: 40px;
+    margin: 20px;
+}

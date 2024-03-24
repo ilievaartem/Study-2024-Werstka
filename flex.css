@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .item{
@@ -14,4 +14,21 @@
     border: 2px solid blue;
     color: white;
     font-size: 25px;
+    /* flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    margin: 0 15px;
+}
+
+.third{
+    /* flex-grow: 5; */
+}
+
+.fourth{
+    /* flex-shrink: 4; */
+    /* margin-left: auto; */
+}
+
+.fiveth{
+
 }

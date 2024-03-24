@@ -10,18 +10,38 @@ body {
     font-size: 1em;
 }
 
+.blue-text{
+    color: #73A6B1;
+}
+
 /* header */
+
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+}
 
 .logo {
 
 }
 
 .menu-list{
-
+    display: flex;
+    align-items: center;
 }
 
 .menu-item{
+    margin-left: 3.1em;
+}
 
+.blue-button{
+    text-transform: uppercase;
+    background-color: rgb(122, 229, 253);
+    padding: 1.15em 1.19em;
+    border-radius: 4.83rem;
+    margin-left: 1.3em;
 }
 
 
@@ -33,38 +53,66 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-screen-container{
+    width: 40%;
 }
 
 .main-title {
+    color: white;
     font-weight: 800;
     font-size: 4.06em;
     line-height: 1;
+    margin-left: 1em;
 }
 
 .main-description {
+    margin: 1em 4em;
+}
 
+.white-button{
+    background-color: white;
+    margin-left: 4.5em;
 }
 
 .description-screen {
-
-}
-
-.description-title {
     
 }
 
-.descr-header{
+.description-title {
+    height: 12.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.descr-header{
+    width: 29.2em;
+    text-transform: uppercase;
+    font-size: 2em;
+
+}
+
+.descr-sub-header{
+    font-size: large;
 }
 
 .descr-text{
-
-}
-
-.blue-text{
-
+    width: 35em;
 }
 
 .description-block{
-
+    display: flex;
+    background-color: #f1fdff;
+    width: 80%;
+    height: 25em;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 10em;
 }

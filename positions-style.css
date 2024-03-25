@@ -1,0 +1,48 @@
+.grand-parent{
+    height: 1500px;
+    background-color: darkgray;
+    margin: 50px;
+}
+
+.parent{
+    position: relative;
+    height: 800px;
+    background-color: rgb(62, 177, 62);
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+}
+
+.one{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.two{
+
+}
+
+.three{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.four{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.five{
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}

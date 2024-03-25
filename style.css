@@ -21,6 +21,11 @@ body {
     align-items: center;
     padding: 2.2em 3.94em;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo {
@@ -51,11 +56,13 @@ body {
     background-image: url('./assets/images/Frame\ 12146\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 17vh;
 }
 
 .first-screen-container{
@@ -79,8 +86,13 @@ body {
     margin-left: 4.5em;
 }
 
+/* description block */
+
 .description-screen {
-    
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .description-title {
@@ -96,7 +108,6 @@ body {
     width: 29.2em;
     text-transform: uppercase;
     font-size: 2em;
-
 }
 
 .descr-sub-header{
@@ -107,12 +118,24 @@ body {
     width: 35em;
 }
 
+/* Two blocks section */
+
 .description-block{
     display: flex;
-    background-color: #f1fdff;
-    width: 80%;
-    height: 25em;
     flex-direction: row;
-    justify-content: center;
-    margin: 2em 10em;
+    background-color: #f1fdff;
+    padding: 2vh 3vw; 
+}
+
+.block-img{
+    max-width: 40vw;
+}
+
+@media screen and (max-width: 500px) {
+    body{ background-color: grey;
+    }
+
+    .description-block{
+    flex-direction: column;
+    }
 }
